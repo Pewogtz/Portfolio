@@ -48,7 +48,15 @@ body
     width:230px;
     height:142px;
     float: left;
+    text-align: center;
 }
+
+.tile1:hover
+{
+    background-color:#2084c2;
+}
+
+
 .tile2
 { 
     background-color: #666666;
@@ -56,7 +64,14 @@ body
     width:230px;
     height:142px;
     float: left;
+    text-align: center;
 }
+
+.tile2:hover
+{
+    background-color: #555555;
+}
+
 .tile3
 { 
     background-color:#93c748;
@@ -64,23 +79,36 @@ body
     width:230px;
     height:142px;
     float: left;
+    text-align: center;
     
 }
+
+.tile3:hover
+{
+    background-color: #82b637;
+}
+
 .tile4
 { 
     background-color:#ee5232;
     margin:10px;
-    width:480px;
-    height:142px;
-    
+    width:420px;
+    height:82px;
+    text-align: center;
+    padding:30px;
+    font-size: 26px;
+    line-height:150%;
 }
+
+
 .tile5
 {   
     background-color:#666666;
     margin:10px;
-    width:480px;
-    height:304px;
-    
+    width:420px;
+    height:244px;
+    text-align: justify;
+    padding: 30px;
 }
 .yt
 { 
@@ -89,7 +117,13 @@ body
     width:105px;
     height:142px;
     float: left;
-}  
+}
+
+.yt:hover
+{
+    background-color: #c83237;
+}
+
 .fb
 { 
     background-color:#4668b3;
@@ -98,6 +132,12 @@ body
     height:142px;
     float: left;
 }  
+
+.fb:hover
+{
+    background-color: #3557a2;
+}
+
 .gplus
 { 
     background-color:#d95333;
@@ -106,6 +146,12 @@ body
     height:142px;
     float: left;
 }  
+
+.gplus:hover
+{
+    background-color: #c84222;
+}
+
 .tw
 { 
     background-color:#3095d3;
@@ -114,3 +160,32 @@ body
     height:142px;
     float: left;
 }  
+
+.tw:hover
+{
+    background-color: #2084c2;
+}
+
+a.tilelink
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width:230px;
+    height:142px;
+}
+
+a.tilelinkhtml5
+{
+    color: white;
+    text-decoration: none;
+}
+
+a.sociallink
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width:105px;
+    height:142px;
+}
